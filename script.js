@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = form.querySelector('input[name="username"]').value;
         showAlert(username);
         // Logic for logging in will be added here.
+        form.reset(); // Reset the form after submission
     });
 });
 
