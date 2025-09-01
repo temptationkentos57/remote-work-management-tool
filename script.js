@@ -10,5 +10,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function showAlert(username) {
-    alert(`Login successful for ${username}!`);
+    alert(`Welcome back, ${username}!`);
 }
