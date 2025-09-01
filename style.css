@@ -34,5 +34,5 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #0084ff; /* Updated to a brighter blue on hover */
 }
