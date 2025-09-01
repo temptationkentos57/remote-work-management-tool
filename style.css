@@ -26,7 +26,7 @@ input {
 
 button {
     padding: 10px;
-    background: #66b2ff; /* Updated to a lighter blue shade */
+    background: #4cae4f; /* Updated to a green shade for better contrast */
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,5 +34,5 @@ button {
 }
 
 button:hover {
-    background: #0084ff; /* Updated to a brighter blue on hover */
+    background: #5cb85c; /* Updated to a brighter green on hover */
 }
