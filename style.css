@@ -26,7 +26,7 @@ input {
 
 button {
     padding: 10px;
-    background: #007BFF;
+    background: #66b2ff; /* Updated to a lighter blue shade */
     color: white;
     border: none;
     border-radius: 5px;
