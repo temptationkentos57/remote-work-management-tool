@@ -3,7 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         const username = form.querySelector('input[name="username"]').value;
-        alert(`Login successful for ${username}!`);
+        showAlert(username);
         // Logic for logging in will be added here.
     });
 });
+
+function showAlert(username) {
+    alert(`Login successful for ${username}!`);
+}
