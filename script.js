@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         const username = form.querySelector('input[name="username"]').value;
         if (username.trim() === '') {
-            alert('Username cannot be empty.');
+            alert('Please enter a username.');
             return;
         }
         if (username.length < 3) {
-            alert('Username must be at least 3 characters long.');
+            alert('Your username must be at least 3 characters.');
             return;
         }
         showAlert(username);
