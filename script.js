@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Username cannot be empty.');
             return;
         }
+        if (username.length < 3) {
+            alert('Username must be at least 3 characters long.');
+            return;
+        }
         showAlert(username);
         // Logic for logging in will be added here.
         form.reset(); // Reset the form after submission
