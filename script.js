@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         const username = form.querySelector('input[name="username"]').value;
+        if (username.trim() === '') {
+            alert('Username cannot be empty.');
+            return;
+        }
         showAlert(username);
         // Logic for logging in will be added here.
         form.reset(); // Reset the form after submission
